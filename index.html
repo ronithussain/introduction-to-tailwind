@@ -3,9 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Introduction to tailwind CSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <h1>Iam a student of class nine in your school.</h1>
+            <h3>na ber holew kintu ami sikhbo</h3>
+            <p>This paragraph says will continew my fight</p>
+        </section>
+        <section>
+            <h1 class="text-3xl">This is a large text</h1>
+            <h3 class="text-5xl">This is a medium text</h3>
+            <!-- <h1 class="text-8xl">very very large text</h1> -->
+             <p>normal text</p>
+             <p class="text-blue-500 font-bold">blue text</p>
+             <p class="font-bold">normal bold text</p>
+             <p class="text-right p-11">normal text</p>
+             <p class="text-center bg-orange-500">text-center</p>
+             <div class="h-14 bg-gradient-to-r from-orange-500 to-yellow-500"></div>
+             <div class="border border-slate-800 flex gap-20">
+                <h3>Title</h3>
+                <p>content</p>
+             </div>
+        </section>
+        <section class="border border-orange-500 border-8 w-1/2 mx-auto h-50 overflow-scroll shadow p-4">
+            <h3>About us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste nemo odit eligendi, reprehenderit ipsum aliquam dolores. Eaque quia excepturi. </p>
+        </section>
+        <section class="border shadow md:bg-yellow-500 lg:bg-red-700">
+            <h3>Tailwind Responsiveness</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore molestias possimus optio tempora, nihil ipsum laborum quod? Voluptatibus nisi sit placeat at similique debitis aliquid sint eaque quae totam, optio ullam aperiam rerum vero perspiciatis tempore illo sed asperiores amet sunt facere minus. Aperiam, quibusdam temporibus. Sunt asperiores itaque ipsum.
+            </p>
+        </section>
+        <hr>
+        <section class="border border-4 shadow border-blue-400">
+            <h3>my flexible flex</h3>
+            <div class="overflow-scroll border-4 border-orange-500 md:flex md:justify-evenly m-4 h-80 items-center">
+                <div class="font-bold border border-4 border-blue-400 rounded-lg w-32 h-32 ">
+                    item-1
+                </div>
+                <div class="font-bold border border-4 border-blue-400 rounded-lg w-32 h-32">
+                    item-1
+                </div>
+                <div class="font-bold border border-4 border-blue-400 rounded-lg w-32 h-32">
+                    item-1
+                </div>
+                <div class="font-bold border border-4 border-blue-400 rounded-lg w-32 h-32">
+                    item-1
+                </div>
+            </div>
+        </section>
+        <hr class="my-4">
+        <section>
+                <!-- .bg-pink-300.border.border-2.rounded-md{Box-$}*24 -->
+            <div class=" grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <div class="bg-pink-300 border border-2 rounded-md">Box-1</div>
+                <div class="bg-pink-300 border border-2 rounded-md">Box-2</div>
+                <div class="bg-pink-300 border border-2 rounded-md">Box-3</div>
+                <div class="bg-pink-300 border border-2 rounded-md">Box-4</div>
+                <div class="bg-pink-300 border border-2 rounded-md md:col-span-3">Box-5</div>
+                <div class="bg-pink-300 border border-2 rounded-md">Box-6</div>
+                <div class="bg-pink-300 border border-2 rounded-md sm:col-span-2 row-span-3">Box-7</div>
+                <div class="bg-pink-300 border border-2 rounded-md">Box-8</div>
+                <div class="bg-pink-300 border border-2 rounded-md">Box-9</div>
+                <div class="bg-pink-300 border border-2 rounded-md">Box-10</div>
+                <div class="bg-pink-300 border border-2 rounded-md">Box-11</div>
+                <div class="bg-pink-300 border border-2 rounded-md">Box-12</div>
+                <div class="bg-pink-300 border border-2 rounded-md">Box-13</div>
+                <div class="bg-pink-300 border border-2 rounded-md">Box-14</div>
+                <div class="bg-pink-300 border border-2 rounded-md">Box-15</div>
+                <div class="bg-pink-300 border border-2 rounded-md">Box-16</div>
+                <div class="bg-pink-300 border border-2 rounded-md">Box-17</div>
+                <div class="bg-pink-300 border border-2 rounded-md">Box-18</div>
+                <div class="bg-pink-300 border border-2 rounded-md">Box-19</div>
+                <div class="bg-pink-300 border border-2 rounded-md">Box-20</div>
+                <div class="bg-pink-300 border border-2 rounded-md">Box-21</div>
+                <div class="bg-pink-300 border border-2 rounded-md">Box-22</div>
+                <div class="bg-pink-300 border border-2 rounded-md">Box-23</div>
+                <div class="bg-pink-300 border border-2 rounded-md">Box-24</div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
